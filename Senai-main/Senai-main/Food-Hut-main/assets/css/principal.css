@@ -13,16 +13,14 @@
 header {
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding: 2% 5%;
-    /* border: 2px solid black; */
+    justify-content: space-between;
+    padding: 1% 8%; 
 }
 
 nav {
     display: flex;
-    justify-content: flex-end;
-    border: 1px solid black;
-    width: 60%;
+    justify-content:center;
+    width: 65%;
 }
 
 nav a {
@@ -30,8 +28,7 @@ nav a {
     display: flex;
     align-items: center;
     text-decoration: none;
-    flex-grow: 1;
-    border: 1px solid black;
+    margin-inline: auto;
 }
 
 #hamburguer {
@@ -40,7 +37,7 @@ nav a {
 
 #button_header {
     margin-left: 6rem;
-    
+    margin-right: 0.5%;
 }
 
 .button {
@@ -59,10 +56,9 @@ body {
 .main_1 {
     margin-top: 1.5rem;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding: 0 5%;
-    flex-wrap: wrap-reverse;
+    padding: 0 8%;
 }
 
 .heart {
@@ -77,11 +73,10 @@ body {
     gap: 5px;
 }
 
-.titulo {
-    font-size: 58px;
-    width: 530px;
-    height: 156px;
-    line-height: 78px;
+.esquerda .titulo {
+    font-size: 3.5rem;
+    max-width: 80%;
+    height: auto;
     font-weight: 600;
 }
 
@@ -96,8 +91,8 @@ body {
 }
 
 .main_1 p {
-    margin-top: 20px;
-    width: 500px;
+    margin-top: 2%;
+    max-width: 60%;
     font-size: 20px;
     color: #191919;
 }
@@ -129,6 +124,7 @@ body {
     align-items: center;
     gap: 1.5rem;
     margin-top: 1.5rem;
+    gap: 1%;
 }
 
 .video {
@@ -137,37 +133,39 @@ body {
     background: none;
     border: none;
     cursor: pointer;
-    gap: 1rem;
+    justify-content: center;
+    min-width: 30%;
 }
 
 .video img {
-    height: 52px;
     box-shadow: 0 15px 30px rgba(223, 105, 81, 0.3);
     border-radius: 100%;
+}
+
+.video span {
+    margin-left: 7%;
 }
 
 .mulher {
     display: flex;
     align-items: flex-start;
-    margin-right: -7.2%;
+    min-width: 50%;
 }
 
 .mulher img {
-    margin-bottom: 1.5rem;
     max-width: 100%;
     height: auto;
-    border: 1px solid black;
 }
 
-#flecha1 {
+ #flecha1 {
     position: relative;
+    display: flex;
     right: 16%;
-    max-width: 100%;
     height: auto;
-}
+} 
 
 .main_2 {
-    margin-top: 4rem;
+    margin-top: 4%;
 }
 
 .main_2 .red_color {
@@ -594,13 +592,52 @@ h2,
     
 }
 
-@media (max-width: 700px) {
+@media screen and (max-width: 1024px) {
     header nav {
         display: none;
     }
+
+    .main_1 {
+        flex-wrap: wrap-reverse;
+        padding: 0 3%;
+    }
+
     #hamburguer {
         display: inline;
     }
 
+    .esquerda {
+        margin-top: 10%; 
+        padding: 0 3%;
+    }
+
+    .esquerda > * {
+        padding: 0.7% 0.3%;
+    }
+
+    .titulo  {
+        line-height: 130%;
+        min-width: 90%;
+        font-size: 3rem !important;
+        font-weight: 750!important;
+    }
+
+    .heart {
+        margin-bottom: 3%;
+        padding: 1%;
+    }
+
+    .esquerda p {
+        min-width: 90%;
+        font-size: 19px;
+    }
+
+    
+    .pratos .prato:nth-child(n+2) {
+        display: none;
+    }
+
 
 }
+
+@media screen and (min-width: 1025px) {}

@@ -308,18 +308,16 @@ h2, .conteudo p {
     width: 100%;
     height: 20%;
     gap: 2%;
-    border: 1px solid black;
-}
-
-.mano .img{
-    max-width: 35%;
-    height: auto;
 }
 
 .mano {
     display: flex;
     align-items: flex-start;
     max-width: 50%;
+}
+
+#cozinheiro {
+    display: none;
 }
 
 .lado2 {
@@ -331,7 +329,7 @@ h2, .conteudo p {
 .titulo3 {
     font-size: 2.4rem;
     font-weight: 700;
-    width: 25rem;
+    max-width: 50%;
     height: 5rem;
     text-align: left;
     margin-left: 0;
@@ -339,7 +337,7 @@ h2, .conteudo p {
 }
 
 .lado2 p {
-    width: 100%;
+    max-width: 100%;
     font-size: 1.1rem;
 }
 
@@ -354,16 +352,16 @@ h2, .conteudo p {
 }
 
 .servicos {
-    margin-top: 1.5rem;
+    margin-top: 2rem;
     display: flex;
 }
 
 .servico1 {
-    width: 40%;
+    min-width: 40%;
 }
 
 .servico2 {
-    width: 40%;
+    min-width: 40%;
 }
 
 .servico {
@@ -395,7 +393,8 @@ h2, .conteudo p {
 
 .titulo4 {
     font-size: 2.4rem;
-    width: 40%;
+    font-weight: 700;
+    max-width: 40%;
     height: 7.5rem;
     text-align: center;
 }
@@ -455,6 +454,8 @@ h2, .conteudo p {
 .div_esquerda {
     margin-left: 5rem;
     padding-bottom: 5rem;
+    border: 1px solid black;
+    max-width: 80%;
 }
 
 .titulo5 {
@@ -481,18 +482,18 @@ h2, .conteudo p {
     font-size: 1rem;
     color: #191919;
     margin-top: 2.9rem;
-    width: 46%;
+    max-width: 92%;
 }
 
 .instalar {
     padding-top: 2rem;
     display: flex;
-    gap: 3%;
+    gap: 5%;
 }
 
 .rapaz {
-    position: absolute;
-    left: 66%;
+    position: relative;
+    left: 13%;
     margin-top: 10rem;
 }
 
@@ -680,8 +681,57 @@ h2, .conteudo p {
     }
 
     .mano {
-        min-width: 40%;
+        display:none;
     }
-}
 
+    #cozinheiro {
+        display: flex;
+        min-width: 100%;
+    }
+
+    .lado2 {
+        margin: 0;
+        padding: 0 6%;
+    }
+
+    .titulo3 {
+        min-width: 200%;
+        font-size: 3rem;
+        margin-top: 10%;
+    }
+
+    .lado2 p {
+        margin-top: 95%;
+        min-width: 205%;
+    }
+
+    .servicos {
+        padding: 0 3%;
+        flex-direction: column;
+        margin-top: 30%;
+        min-width: 165%;
+    }
+
+    .about_us {
+        margin-top: 10%;
+    }
+
+    .titulo4 {
+        min-width: 70%;
+    }
+
+    .lista {
+        gap: 7%;
+        margin-top: 15%;
+    }
+    
+    .lista li:nth-child(n+4) {
+        display: none;
+    }
+
+    .main_5 {
+        flex-wrap: wrap-reverse;
+    }
+
+}
 @media screen and (min-width: 1025px) {}

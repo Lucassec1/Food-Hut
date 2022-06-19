@@ -19,8 +19,8 @@ header {
 
 nav {
     display: flex;
-    justify-content:center;
-    width: 65%;
+    justify-content: center;
+    width: 70%;
 }
 
 nav a {
@@ -29,6 +29,7 @@ nav a {
     align-items: center;
     text-decoration: none;
     margin-inline: auto;
+    padding-right: 5%;
 }
 
 #hamburguer {
@@ -36,13 +37,13 @@ nav a {
 }
 
 #button_header {
-    margin-left: 6rem;
-    margin-right: 0.5%;
+    margin-left: 6%;
+    margin-right: -2%;
 }
 
 .button {
     background-color: #F54748;
-    width: 10rem;
+    width: 18%;
     height: 2.8rem;
     border-radius: 6.25rem;
     border: none;
@@ -62,15 +63,14 @@ body {
 }
 
 .heart {
-    width: fit-content;
-    padding: 5px;
-    font-size: 1rem;
-    height: 28px;
+    max-width: 25%;
+    padding: 1%;
+    font-size: 100%;
     background: rgba(245, 71, 71, 0.1);
-    border-radius: 100px;
+    border-radius: 6.25rem;
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 5%;
 }
 
 .esquerda .titulo {
@@ -92,39 +92,46 @@ body {
 
 .main_1 p {
     margin-top: 2%;
-    max-width: 60%;
-    font-size: 20px;
+    max-width: 70%;
+    font-size: 1.3rem;
     color: #191919;
 }
 
 #pesquisa {
-    border-radius: 100px;
-    border: 0.1px solid #191919;
+    border-radius: 6.25rem;
+    border: 0.01rem solid #191919;
     width: 470px;
-    height: 54px;
-    padding-left: 20px;
-    background-image: url('../image/blacksearch.png');
+    height: 3.4rem;
+    padding-left: 0rem;
+    background-image: url('./image/blacksearch.png');
     background-repeat: no-repeat;
-    background-position: 20px center;
-    padding-left: 50px;
+    background-position: 1.1rem center;
+    padding-left: 3.2rem;
 }
 
 .search {
     margin-top: 1.5rem;
     display: flex;
     align-items: center; 
+    max-width: 100%;
 }
 
 .yellow_search {
-    margin-left: -50px;
+    margin-left: -7.5%;
 }
 
-.two_buttons {
+.main_1 .two_buttons {
     display: flex;
     align-items: center;
-    gap: 1.5rem;
     margin-top: 1.5rem;
-    gap: 1%;
+    gap: 3%;
+    max-width: 100%;
+}
+
+.two_buttons button {
+    gap: 10%;
+    text-align: center;
+    width: 30%;
 }
 
 .video {
@@ -133,23 +140,17 @@ body {
     background: none;
     border: none;
     cursor: pointer;
-    justify-content: center;
-    min-width: 30%;
 }
 
 .video img {
-    box-shadow: 0 15px 30px rgba(223, 105, 81, 0.3);
+    box-shadow: 0 1rem 2rem rgba(223, 105, 81, 0.3);
     border-radius: 100%;
-}
-
-.video span {
-    margin-left: 7%;
 }
 
 .mulher {
     display: flex;
     align-items: flex-start;
-    min-width: 50%;
+    max-width: 50%;
 }
 
 .mulher img {
@@ -171,33 +172,31 @@ body {
 .main_2 .red_color {
     color: #F54748;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 
 .titulo2 {
     font-weight: 700;
-    font-size: 40px;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
 }
 
-h2,
-.conteudo p {
+h2, .conteudo p {
     text-align: center;
     display: block;
     width: 60%;
     margin-inline: auto;
 }
 
-.conteudo h2 {
-    margin-bottom: 1rem;
+.conteudo {
+    text-transform: capitalize;
 }
-
-
 .pratos {
     margin-top: 4rem;
     display: flex;
     margin-inline: auto;
-    width: 65%;
-    align-items: center;
+    width: 80%;
+    justify-content: center;
     gap: 2%;
 }
 
@@ -211,7 +210,7 @@ h2,
 }
 
 .imagens img {
-    margin-left: -25px;
+    margin-left: -1.6rem;
 }
 
 .imagens .imagem1 {
@@ -222,7 +221,7 @@ h2,
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 20px;
+    font-size: 1.3rem;
     gap: 3%;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -233,21 +232,21 @@ h2,
     width: 80%;
     text-align: center;
     margin-inline: auto;
-    font-size: 14px;
+    font-size: 1rem;
 }
 
 .prato {
     width: 55%;
     text-align: center;
     background: linear-gradient(179.69deg, rgba(255, 255, 255, 0) 50%, #F54748 303.75%);
-    border-radius: 20px;
+    border-radius: 1.3rem;
 }
 
 .gradiente_div {
     background-image: linear-gradient(360deg, #f5474700, #f5474709, #f57e4774);
     border-radius: 100%;
-    width: 260px;
-    height: 260px;
+    width: 16.3rem;
+    height: 16.3rem;
     margin: auto;
     display: flex;
     align-items: center;
@@ -257,8 +256,8 @@ h2,
 .white_div {
     background-color: white;
     border-radius: 100%;
-    width: 225px;
-    height: 225px;
+    width: 14.1rem;
+    height: 14.1rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -268,11 +267,11 @@ h2,
     position: relative;
     background: #FDC55E;
     border-radius: 100%;
-    width: 60px;
-    height: 60px;
+    width: 3.75rem;
+    height: 3.75rem;
     border: 4px solid white;
-    top: -83px;
-    left: 175px;
+    top: -5.2rem;
+    left: 10.9rem;
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -291,14 +290,14 @@ h2,
 
 .order_now {
     position: relative;
-    bottom: -20px;
-    width: 131px;
-    height: 45px;
+    bottom: -1.25rem;
+    width: 8.18rem;
+    height: 2.8rem;
     margin-top: 0.5rem;
     background: #F54748;
-    border-radius: 100px;
+    border-radius: 6.25rem;
     border: none;
-    font-size: 16px;
+    font-size: 1rem;
     color: #fff;
 }
 
@@ -309,23 +308,31 @@ h2,
     width: 100%;
     height: 20%;
     gap: 2%;
+    border: 1px solid black;
+}
+
+.mano .img{
+    max-width: 35%;
+    height: auto;
 }
 
 .mano {
-    width: 35%;
+    display: flex;
+    align-items: flex-start;
+    max-width: 50%;
 }
 
 .lado2 {
-    width: 48%;
     padding-top: 6rem;
-    padding-left: 0;
+    width: 50%;
+    margin-left: -8%;
 }
 
 .titulo3 {
-    font-size: 38px;
+    font-size: 2.4rem;
     font-weight: 700;
-    width: 400px;
-    height: 80px;
+    width: 25rem;
+    height: 5rem;
     text-align: left;
     margin-left: 0;
     margin-bottom: 4rem;
@@ -333,7 +340,7 @@ h2,
 
 .lado2 p {
     width: 100%;
-    font-size: 18px;
+    font-size: 1.1rem;
 }
 
 .main_3 .red_color {
@@ -360,7 +367,7 @@ h2,
 }
 
 .servico {
-    font-size: 18px;
+    font-size: 1.1rem;
     font-weight: 400;
     margin-bottom: 1.5rem;
     display: flex;
@@ -369,11 +376,11 @@ h2,
 }
 
 .about_us {
-    font-size: 18px;
+    font-size: 1.1rem;
     font-weight: 400;
-    width: 114px;
-    height: 45px;
-    border-radius: 100px;
+    width: 7.1rem;
+    height: 2.8rem;
+    border-radius: 6.25rem;
     border: none;
     background: #F54748;
     color: #fff;
@@ -382,16 +389,15 @@ h2,
 .main_4 {
     margin-top: 5rem;
     display: inline-block;
-    align-items: center;
+    justify-content: center;
     width: 100%;
 }
 
 .titulo4 {
-    font-size: 38px;
-    width: 600px;
-    height: 120px;
+    font-size: 2.4rem;
+    width: 40%;
+    height: 7.5rem;
     text-align: center;
-    margin: auto;
 }
 
 .main_4 .red_color {
@@ -407,7 +413,7 @@ h2,
 .lista, #link a {
     text-decoration: none;
     display: flex;
-    gap: 2%;
+    gap: 1.5%;
     justify-content: center;
     list-style: none;
     text-decoration: none;
@@ -415,10 +421,10 @@ h2,
 }
 
 #link a {
-    display: flex;
-    padding: 10px 20px;
-    width: 92px;
-    height: 44px;
+    display: flex; 
+    align-items: center;
+    width: 6.5rem;
+    height: 2.8rem;
     border-radius: 100px;
     color: rgba(25, 25, 25, 0.8);
 }
@@ -426,14 +432,14 @@ h2,
 #ramen {
     background: #f54747;
     color: #fff !important;
-    border-radius: 100px;
+    border-radius: 6.25rem;
     font-weight: 400;
     border: none;
 }
 
 .opacidade {
     border: 2px solid #191919;
-    border-radius: 100px;
+    border-radius: 6.25rem;
     opacity: 0.6;
 }
 
@@ -442,23 +448,23 @@ h2,
     display: flex;
     align-items: center;
     margin-inline: auto;
-    height: 600px;
+    height: 37.5rem;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(253, 198, 0, 0.1) 73.18%);
 }
 
 .div_esquerda {
     margin-left: 5rem;
-    padding-bottom: 80px;
+    padding-bottom: 5rem;
 }
 
 .titulo5 {
-    font-size: 38px;
-    width: 580px;
-    height: 134px;
+    font-size: 2.4rem;
+    width: 36.3rem;
+    height: 8.4rem;
     font-weight: 700;
     text-transform: capitalize;
     text-align: left;
-    margin-left: 0%;
+    margin-left: 0;
 }
 
 .titulo5 .yellow_color {
@@ -472,9 +478,9 @@ h2,
 }
 
 .main_5 p {
-    font-size: 16px;
+    font-size: 1rem;
     color: #191919;
-    margin-top: 47px;
+    margin-top: 2.9rem;
     width: 46%;
 }
 
@@ -491,36 +497,36 @@ h2,
 }
 
 .footer {
-    margin-top: 200px;
+    margin-top: 15%;
     display: flex;
+    justify-content: center;
 }
 
 .foodhut {
-    margin-left: 180px;
     width: 17%;
 }
 
 .titulo6 {
     font-weight: 600;
-    font-size: 28px;
+    font-size: 1.75rem;
     color: #F54748;
 }
 
 .foodhut p {
-    font-size: 16px;
-    margin-top: 10px;
+    font-size: 1rem;
+    margin-top: 0.7rem;
 }
 
 .social {
-    margin-top: 20px;
+    margin-top: 1rem;
     display: flex;
-    gap: 28px;
+    gap: 10%;
 }
 
 .sobre {
     list-style: none;
-    margin-left: 180px;
-    width: 110px;
+    margin-left: 10rem;
+    width: 40%;
 }
 
 .sobre li {
@@ -528,23 +534,23 @@ h2,
 }
 
 .subtitulo {
-    font-size: 22px;
+    font-size: 1.4rem;
     font-weight: 600;
     color: #F54748;
 }
 
 .lista1 {
     text-decoration: none;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .subscribe {
-    margin-left: 180px;
-    width: 21%;
+    margin-left: 10rem;
+    width: 23%;
 }
 
 .subscribe h3{
-    font-size: 22px;
+    font-size: 1.4rem;
     font-weight: 600;
     color: #F54748;
 }
@@ -557,30 +563,29 @@ h2,
     margin-top: 1rem;
     display: flex;
     gap: 4%;
-    
 }
 
 .email {
     background: rgba(25, 25, 25, 0.1);
-    border-radius: 38px;
-    width: 195px;
-    height: 50px;
-    border-radius: 38px;
+    border-radius: 2.4rem;
+    max-width: 65%;
+    height: 3.1rem;
+    border-radius: 2.4rem;
     border: none;
     color: #191919f6;
-    padding: 20px;
+    padding: 1.3rem;
 }
 
 .submit {
-    width: 118px;
-    height: 50px;
+    width: 32%;
+    height: 3.1rem;
     text-align: center;
     background: #F54748;
-    border-radius: 39px;
+    border-radius: 2.4rem;
     border: none;
     color: #fff;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 1rem;
 }
 
 .copyright {
@@ -588,15 +593,14 @@ h2,
     text-align: center;
     margin-bottom: 1rem;
     font-weight: 400;
-    font-size: 16px;
-    
+    font-size: 1rem; 
 }
 
 @media screen and (max-width: 1024px) {
     header nav {
         display: none;
     }
-
+    
     .main_1 {
         flex-wrap: wrap-reverse;
         padding: 0 3%;
@@ -604,6 +608,10 @@ h2,
 
     #hamburguer {
         display: inline;
+    }
+    
+    .mulher {
+        min-width: 107%;
     }
 
     .esquerda {
@@ -617,7 +625,7 @@ h2,
 
     .titulo  {
         line-height: 130%;
-        min-width: 90%;
+        min-width: 80%;
         font-size: 3rem !important;
         font-weight: 750!important;
     }
@@ -625,19 +633,55 @@ h2,
     .heart {
         margin-bottom: 3%;
         padding: 1%;
+        min-width: 31%;
     }
 
     .esquerda p {
-        min-width: 90%;
-        font-size: 19px;
+        min-width: 78%;
+        font-size: 1.2rem;
     }
 
+    .search {
+        max-width: 78%;
+    }
+
+    .yellow_search {
+        margin-left: -12%;
+    }
+
+    .two_buttons {
+        min-width: 300%;
     
+    }
+    
+    .two_buttons .button {
+        width: 10rem;
+    }
+
+    .titulo2 {
+        min-width: 65%;
+        margin-top: 5rem;
+    }
+
+    .conteudo p {
+        width: 80%;
+    }
+
     .pratos .prato:nth-child(n+2) {
         display: none;
     }
 
+    .prato {
+        min-width: 85%;
+    }
 
+    .main_3 {
+        flex-wrap: wrap;
+    }
+
+    .mano {
+        min-width: 40%;
+    }
 }
 
 @media screen and (min-width: 1025px) {}

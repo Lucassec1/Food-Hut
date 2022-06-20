@@ -454,13 +454,12 @@ h2, .conteudo p {
 .div_esquerda {
     margin-left: 5rem;
     padding-bottom: 5rem;
-    border: 1px solid black;
     max-width: 80%;
 }
 
 .titulo5 {
     font-size: 2.4rem;
-    width: 36.3rem;
+    max-width: 36.3rem;
     height: 8.4rem;
     font-weight: 700;
     text-transform: capitalize;
@@ -491,10 +490,11 @@ h2, .conteudo p {
     gap: 5%;
 }
 
-.rapaz {
+.rapaz img {
     position: relative;
     left: 13%;
     margin-top: 10rem;
+    max-width: 180%;
 }
 
 .footer {
@@ -504,7 +504,7 @@ h2, .conteudo p {
 }
 
 .foodhut {
-    width: 17%;
+    max-width: 17%;
 }
 
 .titulo6 {
@@ -524,10 +524,14 @@ h2, .conteudo p {
     gap: 10%;
 }
 
+.double_lista {
+    display: flex;
+}
+
 .sobre {
     list-style: none;
     margin-left: 10rem;
-    width: 40%;
+    max-width: 40%;
 }
 
 .sobre li {
@@ -547,7 +551,7 @@ h2, .conteudo p {
 
 .subscribe {
     margin-left: 10rem;
-    width: 23%;
+    max-width: 23%;
 }
 
 .subscribe h3{
@@ -731,7 +735,51 @@ h2, .conteudo p {
 
     .main_5 {
         flex-wrap: wrap-reverse;
+        margin-top: 130%;
     }
 
+    .rapaz {
+        min-width: 130%;
+        margin-left: -2%;
+    }
+
+    .titulo5 {
+        min-width: 100%;
+        margin-top: -30%;
+    }
+
+    .instalar {
+        margin-top: 10%;
+    }
+
+    .footer {
+        flex-wrap: wrap;
+        margin-left: -9%;
+    }
+
+    .foodhut {
+        min-width: 65%;
+    }
+
+    .double_lista {
+        margin-top: 5%;
+        margin-left: -22%; 
+    }
+
+    .sobre {
+        margin-left: 5rem;
+        min-width: 60%;
+    }
+
+    .subscribe {
+        min-width: 70%;
+        margin-top: 5%;
+        margin-left: 4%;
+    }
+
+    .sub_botoes {
+        margin-left: -1%;
+    }
 }
+
 @media screen and (min-width: 1025px) {}

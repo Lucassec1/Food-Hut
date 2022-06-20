@@ -647,7 +647,7 @@ h2, .conteudo p {
     }
 
     .search {
-        max-width: 78%;
+        max-width: 83%;
     }
 
     .yellow_search {
@@ -655,7 +655,7 @@ h2, .conteudo p {
     }
 
     .two_buttons {
-        min-width: 300%;
+        min-width: 400%;
     
     }
     
@@ -706,7 +706,7 @@ h2, .conteudo p {
 
     .lado2 p {
         margin-top: 95%;
-        min-width: 205%;
+        min-width: 220%;
     }
 
     .servicos {
@@ -736,20 +736,26 @@ h2, .conteudo p {
     .main_5 {
         flex-wrap: wrap-reverse;
         margin-top: 130%;
+        margin-left: -10%;
     }
 
     .rapaz {
-        min-width: 130%;
-        margin-left: -2%;
+        min-width: 115%;
+        margin-left: 10%;
     }
 
     .titulo5 {
-        min-width: 100%;
+        min-width: 80%;
         margin-top: -30%;
     }
 
+    .main_5 p {
+        max-width: 80%;
+        margin-top: 15%;
+    }
+
     .instalar {
-        margin-top: 10%;
+        margin-top: 5%;
     }
 
     .footer {
@@ -763,7 +769,7 @@ h2, .conteudo p {
 
     .double_lista {
         margin-top: 5%;
-        margin-left: -22%; 
+        margin-left: -24%; 
     }
 
     .sobre {

@@ -63,7 +63,7 @@ body {
 }
 
 .heart {
-    max-width: 25%;
+    max-width: 19%;
     padding: 1%;
     font-size: 100%;
     background: rgba(245, 71, 71, 0.1);
@@ -75,7 +75,7 @@ body {
 
 .esquerda .titulo {
     font-size: 3.5rem;
-    max-width: 80%;
+    max-width: 70%;
     height: auto;
     font-weight: 600;
 }
@@ -92,7 +92,7 @@ body {
 
 .main_1 p {
     margin-top: 2%;
-    max-width: 70%;
+    max-width: 60%;
     font-size: 1.3rem;
     color: #191919;
 }
@@ -117,7 +117,7 @@ body {
 }
 
 .yellow_search {
-    margin-left: -7.5%;
+    margin-left: -6%;
 }
 
 .main_1 .two_buttons {
